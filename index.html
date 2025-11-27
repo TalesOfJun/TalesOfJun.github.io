@@ -127,53 +127,73 @@
             ,
             point: {
                 url: "./icons/point.png",
-                width: 30,
-                height: 30
+                width: 20,
+                height: 20,
+                loaded: false,
+                image: null
             },
             monument:{
                 url: "./icons/monument.png",
-                width: 30,
-                height: 30
+                width: 20,
+                height: 20,
+                loaded: false,
+                image: null
             },
             treasure:{
                 url: "./icons/treasure.png",
-                width: 30,
-                height: 30
+                width: 20,
+                height: 20,
+                loaded: false,
+                image: null
             },
             wizard:{
                 url: "./icons/wizard.png",
-                width: 30,
-                height: 30
+                width: 20,
+                height: 20,
+                loaded: false,
+                image: null
             },
             gov:{
                 url: "./icons/gov.png",
-                width: 30,
-                height: 30
+                width: 20,
+                height: 20,
+                loaded: false,
+                image: null
             },
             temple:{
                 url: "./icons/temple.png",
-                width: 30,
-                height: 30
+                width: 20,
+                height: 20,
+                loaded: false,
+                image: null
             },
             idk:{
-                url: ".\TRPG\shield.png",
-                width: 30,
-                height: 30
+                url: ".\TRPG\idk.png",
+                width: 20,
+                height: 20,
+                loaded: false,
+                image: null
             },
             dragon:{
                 url: "./icons/dragon.png",
-                width: 30,
-                height: 30
+                width: 20,
+                height: 20,
+                loaded: false,
+                image: null
             },
             dungeon:{
                 url: "./icons/dungeon.png",
-                width: 30,
-                height: 30
+                width: 20,
+                height: 20,
+                loaded: false,
+                image: null
             },
             castle:{
                 url: "./icons/castle.png",
-                width: 30,
-                height: 30
+                width: 20,
+                height: 20,
+                loaded: false,
+                image: null
             }
         };
         
@@ -636,8 +656,8 @@
             });
             // 添加示例标记
             markers.push(
-                { x: 2825, y: 905, icontype:"shield",name: "佩文尼特", description: "艾特琳莎以北的海滨小镇，以不冻港闻名，如今仍然保持着政治独立。此地生产小麦等农作物，人民皆热情好客，无忧无虑，一天要吃6顿饭，且嗜酒如命，各种庆祝活动多如牛毛。" },
-                { x: 2856, y: 931, icontype:"shield",name: "无名前哨站", description: "灭亡的丹塔尔的边境前哨站，在狂龙泣血之年便被废弃。最近佩文尼特突然出现了一些传闻：有人在前哨站附近失踪了，镇上的其他人去寻找，却一无所获。" }
+                { x: 2825, y: 905, icontype:"point",name: "佩文尼特", description: "艾特琳莎以北的海滨小镇，以不冻港闻名，如今仍然保持着政治独立。此地生产小麦等农作物，人民皆热情好客，无忧无虑，一天要吃6顿饭，且嗜酒如命，各种庆祝活动多如牛毛。" },
+                { x: 2856, y: 931, icontype:"idk",name: "无名前哨站", description: "灭亡的丹塔尔的边境前哨站，在狂龙泣血之年便被废弃。最近佩文尼特突然出现了一些传闻：有人在前哨站附近失踪了，镇上的其他人去寻找，却一无所获。" }
             );
             
             // 窗口大小变化时调整Canvas
@@ -650,4 +670,5 @@
 </body>
 
 </html>
+
 
