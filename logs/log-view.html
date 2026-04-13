@@ -80,7 +80,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             // 从 URL 参数获取文件路径，或使用默认路径
             const urlParams = new URLSearchParams(window.location.search);
-            const filePath = urlParams.get('file') || './logs/sss1.md';
+            const filePath = urlParams.get('file') || './sss1.md';
             renderMarkdownFile(filePath);
         });
     </script>
